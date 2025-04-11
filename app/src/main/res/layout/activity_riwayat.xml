@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F5F5"
+    tools:context=".RiwayatActivity">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        app:cardCornerRadius="16dp"
+        app:cardElevation="8dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:background="#FFFFFF">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <TextView
+                android:id="@+id/txtNama"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="#333333"
+                android:background="#EEEEEE"
+                android:padding="12dp"
+                android:layout_marginTop="8dp" />
+
+            <TextView
+                android:id="@+id/txtNis"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:textColor="#333333"
+                android:background="#EEEEEE"
+                android:padding="12dp"
+                android:layout_marginTop="8dp" />
+
+            <TextView
+                android:id="@+id/txtKelas"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:textColor="#333333"
+                android:background="#EEEEEE"
+                android:padding="12dp"
+                android:layout_marginTop="8dp" />
+
+            <TextView
+                android:id="@+id/txtAbsen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:textColor="#333333"
+                android:background="#EEEEEE"
+                android:padding="12dp"
+                android:layout_marginTop="8dp" />
+
+            <TextView
+                android:id="@+id/txtLokasi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:textColor="#333333"
+                android:background="#EEEEEE"
+                android:padding="12dp"
+                android:layout_marginTop="8dp" />
+
+            <TextView
+                android:id="@+id/txtKeterangan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:textColor="#333333"
+                android:background="#EEEEEE"
+                android:padding="12dp"
+                android:layout_marginTop="8dp" />
+
+            <Button
+                android:id="@+id/btnSimpan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Simpan"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:backgroundTint="#4CAF50"
+                android:layout_marginTop="20dp" />
+
+            <Button
+                android:id="@+id/btnHapus"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hapus"
+                android:textAllCaps="false"
+                android:backgroundTint="#757575"
+                android:textColor="#FFFFFF"
+                android:layout_marginTop="12dp"
+                android:layout_marginBottom="8dp" />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
